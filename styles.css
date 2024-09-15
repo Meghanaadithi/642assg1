@@ -1,0 +1,46 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #004225; /* Dark Green */
+    background-color: #ffffff; /* White background */
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+    width: 120px;
+    background: #004225; /* Dark Green */
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px;
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0;
+    }
+}
+
+/* Navbar styling */
+.w3-navbar a {
+    color: #ffffff; /* White text */
+    background-color: #004225; /* Dark Green background */
+}
+
+.w3-bar-item.w3-text-white {
+    color: #ffffff !important;
+}
+
+/* Skill bars */
+.w3-white .w3-dark-green {
+    background-color: #004225; /* Dark Green */
+}
+
+.w3-white .w3-yellow {
+    background-color: #FFCC33; /* GMU Yellow */
+}

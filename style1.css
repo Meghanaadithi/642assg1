@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styles */
+h1.form-heading {
+    color: #006633; /* GMU Green */
+    border: 5px solid #006633; /* GMU Green border */
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Box shadow for heading */
+    text-align: center;
+}
+/* Navigation Bar */
+.navbar {
+    padding: 0.5rem 1rem; /* Adjusted padding to reduce navbar height */
+}
+
+.navbar-brand img {
+    height: 40px; /* Adjust logo height if necessary */
+}
+
+.nav-item .nav-link, .navbar-toggler {
+    padding: 0.5rem; /* Adjusted padding for nav items and toggler */
+}
+
+/* Form Styles */
+form {
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the form */
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+input:required {
+    border: 2px solid red;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #006633; /* GMU Green */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004d26; /* Darker shade of GMU Green for hover effect */
+}
+
+/* Custom Checkboxes and Radio Buttons */
+.form-check-input:checked + .form-check-label::before {
+    background-color: #006633; /* GMU Green for checked state */
+    border-color: #006633;
+}
